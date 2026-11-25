@@ -26,7 +26,6 @@ En **CMD** (Windows):
 ```bat
 set NODE_USE_SYSTEM_CA=1
 npx expo start --tunnel
-este de arriba
 ```
 
 En **PowerShell**:
@@ -49,4 +48,4 @@ Para detener Expo, volvé a la terminal y presioná `Ctrl+C`.
 - Pistas que revelan una letra o eliminan una opción y descuentan 2 segundos.
 - Ranking local guardado en el dispositivo.
 
-Los países, banderas y capitales se cargan desde las API de CountriesNow, por lo que el teléfono necesita conexión a Internet.
+Los nombres, las URL de las banderas y las capitales se obtienen desde CountriesNow. Para que todas las banderas se vean en React Native, la app pide miniaturas PNG a Wikimedia usando el nombre del archivo de bandera recibido en la API. El teléfono necesita conexión a Internet.
